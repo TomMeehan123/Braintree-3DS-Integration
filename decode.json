@@ -1,0 +1,41 @@
+{
+    "version": 2,
+    "authorizationFingerprint": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjIwMTgwNDI2MTYtc2FuZGJveCIsImlzcyI6Imh0dHBzOi8vYXBpLnNhbmRib3guYnJhaW50cmVlZ2F0ZXdheS5jb20ifQ.eyJleHAiOjE2MjYzMzk0MjEsImp0aSI6IjQxNWFiYjFmLTcxMjItNDQyNC04ZWRhLTUyYzBjYTQzN2VjMSIsInN1YiI6Img5d2M1Ymg2dGcycHpxM24iLCJpc3MiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwibWVyY2hhbnQiOnsicHVibGljX2lkIjoiaDl3YzViaDZ0ZzJwenEzbiIsInZlcmlmeV9jYXJkX2J5X2RlZmF1bHQiOmZhbHNlfSwicmlnaHRzIjpbIm1hbmFnZV92YXVsdCJdLCJzY29wZSI6WyJCcmFpbnRyZWU6VmF1bHQiXSwib3B0aW9ucyI6e319.OmFdzKpAaA-eRymUNmfaVwpRY-dG-_avP9KK1AtfSpWp-IsBe-6g37_TqpHdjfn-FrDRVew89YQo9RBxCVE6Yw",
+    "configUrl": "https://api.sandbox.braintreegateway.com:443/merchants/h9wc5bh6tg2pzq3n/client_api/v1/configuration",
+    "graphQL": {
+        "url": "https://payments.sandbox.braintree-api.com/graphql",
+        "date": "2018-05-08",
+        "features": [
+            "tokenize_credit_cards"
+        ]
+    },
+    "clientApiUrl": "https://api.sandbox.braintreegateway.com:443/merchants/h9wc5bh6tg2pzq3n/client_api",
+    "environment": "sandbox",
+    "merchantId": "h9wc5bh6tg2pzq3n",
+    "assetsUrl": "https://assets.braintreegateway.com",
+    "authUrl": "https://auth.venmo.sandbox.braintreegateway.com",
+    "venmo": "off",
+    "challenges": [],
+    "threeDSecureEnabled": true,
+    "analytics": {
+        "url": "https://origin-analytics-sand.sandbox.braintree-api.com/h9wc5bh6tg2pzq3n"
+    },
+    "paypalEnabled": true,
+    "paypal": {
+        "billingAgreementsEnabled": true,
+        "environmentNoNetwork": false,
+        "unvettedMerchant": false,
+        "allowHttp": true,
+        "displayName": "Mullinalaghta",
+        "clientId": "AakvMZ__rZucMgNr2k_3jB4emRyghlNYorl2pAYzSy7C4MFTDamAwrqv_xNANdMdp7CPSzTzVt0VmPjC",
+        "privacyUrl": "http://example.com/pp",
+        "userAgreementUrl": "http://example.com/tos",
+        "baseUrl": "https://assets.braintreegateway.com",
+        "assetsUrl": "https://checkout.paypal.com",
+        "directBaseUrl": null,
+        "environment": "offline",
+        "braintreeClientId": "masterclient3",
+        "merchantAccountId": "mullinalaghta",
+        "currencyIsoCode": "USD"
+    }
+}
